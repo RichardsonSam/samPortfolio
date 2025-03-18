@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="./rps.css">
+</head>
+
+<body>
+    <div class="rps-overall">
+        <div class="rps-game">
+            <h1  class="rps-title">rock paper scissors</h1>
+            
+            
+            <button class="button-border" onclick="playGame('rock')">
+            <img class="rps-image" src="./assets/rock.png" width="50px" alt="">
+    
+            </button>
+            <button class="button-border" onclick="
+        playGame('paper')
+        
+         
+        "><img  src="./assets/paper.png" width="50px" alt=""></button>
+            <button class="button-border" onclick="
+        playGame('scissors')
+        
+        "><img class="rps-image" src="./assets/scissors.png" width="50px" alt=""></button>
+        
+            <p class="result-place"></p>
+            <p class="js-moves">
+                your Move <img class="rps-image" src="./assets/rock.png" width="50px" alt="">    
+                <img class="rps-image" src="./assets/scissors.png" width="50px" alt="">Computer Move
+
+            </p>
+            <p class="js-scores"></p>
+            <div class="">
+                <button class="reset-button" onclick="resetScore()">resetScore</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./rps.js">
+
+</script>
+
+</html>

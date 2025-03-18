@@ -1,0 +1,57 @@
+body {
+    background: #222020;
+    font-family: serif;
+}
+.rps-overall{
+   /* display: block;
+   margin: auto; */
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+
+   
+}
+.rps-game{
+   border:3px solid #f0ab16;
+   width: 40%;
+   text-align: center;
+   
+   
+
+}
+.rps-title{
+    /* font-size: 50px; */
+    color:#fff;
+}
+/* .image-border{
+    
+} */
+ .button-border{
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+ }
+ .result-place{
+    font-size: 30px;
+    color:#fff;
+ }
+ .js-moves{
+    font-size: 25px;
+    color:#fff;
+ }
+ .js-scores{
+    font-size: 25px;
+    color:#fff;
+ }
+ .reset-button{
+    background-color: #f0ab16;
+    color:#fff;
+    font-size: 20px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+ }
